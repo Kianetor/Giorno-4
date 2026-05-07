@@ -156,9 +156,9 @@ h3 {
     font-weight: bold;
 }
 
-*/Comptenze*/
+/*Esperienze*/
 
-#competenze {
+#esperienze{
     clear: both;
 
 }
@@ -179,11 +179,16 @@ h3 {
 }
 
 .project:first-of-type h3::after{
-    content:🆕;
+    content:"NEW";
     display: inline-block;
     padding: 2px 8px;
     margin: 0 0 0 12px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
 }
+
+
 
 /* Form contatti */
 input::placeholder,
